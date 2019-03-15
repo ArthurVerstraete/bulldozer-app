@@ -7,5 +7,5 @@ Bull::Bull(int weight, int liftCapacity, std::string name) {
 }
 
 std::string Bull::to_string(void) {
-    return "This bull is a " + name + ", weighs " + std::to_string(weight) + "kg and can lift " + std::to_string(liftCapacity) + "kg."
-;}
+    return "This bull is a " + name + ", weighs " + std::to_string(weight) + "kg and can lift " + std::to_string(liftCapacity) + "kg.";
+}
